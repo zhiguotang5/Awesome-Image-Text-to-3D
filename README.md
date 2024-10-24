@@ -5,9 +5,9 @@ A curated list of papers and open-source resources focused on text/image to 3D.
 ## Table of Contents
 - [Dataset](#Dataset)
 
-- [Single Image to 3D](#SingleImageTo3D)
+- [Single Image to 3D](#Single Image to 3D)
 
-- [Text to 3D](#TextTo3D)
+- [Text to 3D](#Text to 3D)
 
 
 ## Dataset
