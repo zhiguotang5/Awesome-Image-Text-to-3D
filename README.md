@@ -57,6 +57,8 @@ Massive data corpora like WebText, Wikipedia, Conceptual Captions, WebImageText,
 3D content creation plays a vital role in various applications, such as gaming, robotics simulation, and virtual reality. However, the process is labor-intensive and time-consuming, requiring skilled designers to invest considerable effort in creating a single 3D asset. To address this challenge, text-to-3D generation technologies have emerged as a promising solution for automating 3D creation. Leveraging the success of large vision language models, these techniques aim to generate 3D content based on textual descriptions. Despite recent advancements in this area, existing solutions still face significant limitations in terms of generation quality and efficiency. In this survey, we conduct an in-depth investigation of the latest text-to-3D creation methods. We provide a comprehensive background on text-to-3D creation, including discussions on datasets employed in training and evaluation metrics used to assess the quality of generated 3D models. Then, we delve into the various 3D representations that serve as the foundation for the 3D generation process. Furthermore, we present a thorough comparison of the rapidly growing literature on generative pipelines, categorizing them into feedforward generators, optimization-based generation, and view reconstruction approaches. By examining the strengths and weaknesses of these methods, we aim to shed light on their respective capabilities and limitations. Lastly, we point out several promising avenues for future research. With this survey, we hope to inspire researchers further to explore the potential of open-vocabulary text-conditioned 3D content creation.
 </details>
 
+[📄 Paper](https://arxiv.org/pdf/2305.06131)
+
 ## 2023
 ### Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era
 
@@ -68,6 +70,8 @@ Massive data corpora like WebText, Wikipedia, Conceptual Captions, WebImageText,
 <summary><b>Abstract</b></summary>
 Generative AI (AIGC, a.k.a. AI generated content) has made significant progress in recent years, with text-guided content generation being the most practical as it facilitates interaction between human instructions and AIGC. Due to advancements in text-to-image and 3D modeling technologies (like NeRF), text-to-3D has emerged as a nascent yet highly active research field. Our work conducts the first comprehensive survey and follows up on subsequent research progress in the overall field, aiming to help readers interested in this direction quickly catch up with its rapid development. First, we introduce 3D data representations, including both Euclidean and non-Euclidean data. Building on this foundation, we introduce various foundational technologies and summarize how recent work combines these foundational technologies to achieve satisfactory text-to-3D results. Additionally, we present mainstream baselines and research directions in recent text-to-3D technology, including fidelity, efficiency, consistency, controllability, diversity, and applicability. Furthermore, we summarize the usage of text-to-3D technology in various applications, including avatar generation, texture generation, shape editing, and scene generation.
 </details>
+
+[📄 Paper](https://arxiv.org/pdf/2305.06131)
 
 
 ## Unified framework for 3D content generation
