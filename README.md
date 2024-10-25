@@ -27,7 +27,7 @@ A curated list of papers and open-source resources focused on text/image to 3D.
 Natural language processing and 2D vision models have attained remarkable proficiency on many tasks primarily by escalating the scale of training data. However, 3D vision tasks have not seen the same progress, in part due to the challenges of acquiring high-quality 3D data. In this work, we present Objaverse-XL, a dataset of over 10 million 3D objects. Our dataset comprises deduplicated 3D objects from a diverse set of sources, including manually designed objects, photogrammetry scans of landmarks and everyday items, and professional scans of historic and antique artifacts. Representing the largest scale and diversity in the realm of 3D datasets, Objaverse-XL enables significant new possibilities for 3D vision. Our experiments demonstrate the improvements enabled with the scale provided by Objaverse-XL. We show that by training Zero123 on novel view synthesis, utilizing over 100 million multi-view rendered images, we achieve strong zero-shot generalization abilities. We hope that releasing Objaverse-XL will enable further innovations in the field of 3D vision at scale.
 </details>
 
-[📄 Paper](https://arxiv.org/pdf/2307.05663)| [Project](https://objaverse.allenai.org/) | [💻 Code](https://github.com/allenai/objaverse-xl) | [🤗 Demo](https://colab.research.google.com/drive/15XpZMjrHXuky0IgBbXcsUtb_0g-XWYmN?usp=sharing)
+[📄 Paper](https://arxiv.org/pdf/2307.05663)| [🌐 Project Page](https://objaverse.allenai.org/) | [💻 Code](https://github.com/allenai/objaverse-xl) | [🤗 Demo](https://colab.research.google.com/drive/15XpZMjrHXuky0IgBbXcsUtb_0g-XWYmN?usp=sharing)
 
 ## 2022
 ### Objaverse: A Universe of Annotated 3D Objects
@@ -41,7 +41,7 @@ Natural language processing and 2D vision models have attained remarkable profic
 Massive data corpora like WebText, Wikipedia, Conceptual Captions, WebImageText, and LAION have propelled recent dramatic progress in AI. Large neural models trained on such datasets produce impressive results and top many of today's benchmarks. A notable omission within this family of large-scale datasets is 3D data. Despite considerable interest and potential applications in 3D vision, datasets of high-fidelity 3D models continue to be mid-sized with limited diversity of object categories. Addressing this gap, we present Objaverse 1.0, a large dataset of objects with 800K+ (and growing) 3D models with descriptive captions, tags, and animations. Objaverse improves upon present day 3D repositories in terms of scale, number of categories, and in the visual diversity of instances within a category. We demonstrate the large potential of Objaverse via four diverse applications: training generative 3D models, improving tail category segmentation on the LVIS benchmark, training open-vocabulary object-navigation models for Embodied AI, and creating a new benchmark for robustness analysis of vision models. Objaverse can open new directions for research and enable new applications across the field of AI.
 </details>
 
-[📄 Paper](https://arxiv.org/pdf/2307.05663)| [Project](https://objaverse.allenai.org/objaverse-1.0/)
+[📄 Paper](https://arxiv.org/pdf/2307.05663)| [🌐 Project Page](https://objaverse.allenai.org/objaverse-1.0/)
 
 
 ## Survey
@@ -158,7 +158,50 @@ We introduce Zero-1-to-3, a framework for changing the camera viewpoint of an ob
 
 
 ## Text to 3D
+## 2023
+### Instant3D: Fast Text-to-3D with Sparse-View Generation and Large Reconstruction Model
+
+**Author**: Jiahao Li, Hao Tan, Kai Zhang, Zexiang Xu, Fujun Luan, Yinghao Xu, Yicong Hong, Kalyan Sunkavalli, Greg Shakhnarovich, Sai Bi
+
+**Date**: 10 Nov 2023
+
+<details span>
+<summary><b>Abstract</b></summary>
+Text-to-3D with diffusion models has achieved remarkable progress in recent years. However, existing methods either rely on score distillation-based optimization which suffer from slow inference, low diversity and Janus problems, or are feed-forward methods that generate low-quality results due to the scarcity of 3D training data. In this paper, we propose Instant3D, a novel method that generates high-quality and diverse 3D assets from text prompts in a feed-forward manner. We adopt a two-stage paradigm, which first generates a sparse set of four structured and consistent views from text in one shot with a fine-tuned 2D text-to-image diffusion model, and then directly regresses the NeRF from the generated images with a novel transformer-based sparse-view reconstructor. Through extensive experiments, we demonstrate that our method can generate diverse 3D assets of high visual quality within 20 seconds, which is two orders of magnitude faster than previous optimization-based methods that can take 1 to 10 hours.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2311.06214) | [🌐 Projects Page](https://jiahao.ai/instant3d/)
+
+
+### Progressive Text-to-3D Generation for Automatic 3D Prototyping
+
+**Author**: Han Yi, Zhedong Zheng, Xiangyu Xu, Tat-seng Chua
+
+**Date**: 26 Sep 2023
+
+<details span>
+<summary><b>Abstract</b></summary>
+Text-to-3D generation is to craft a 3D object according to a natural language description. This can significantly reduce the workload for manually designing 3D models and provide a more natural way of interaction for users. However, this problem remains challenging in recovering the fine-grained details effectively and optimizing a large-size 3D output efficiently. Inspired by the success of progressive learning, we propose a Multi-Scale Triplane Network (MTN) and a new progressive learning strategy. As the name implies, the Multi-Scale Triplane Network consists of four triplanes transitioning from low to high resolution. The low-resolution triplane could serve as an initial shape for the high-resolution ones, easing the optimization difficulty. To further enable the fine-grained details, we also introduce the progressive learning strategy, which explicitly demands the network to shift its focus of attention from simple coarse-grained patterns to difficult fine-grained patterns. Our experiment verifies that the proposed method performs favorably against existing methods. For even the most challenging descriptions, where most existing methods struggle to produce a viable shape, our proposed method consistently delivers. We aspire for our work to pave the way for automatic 3D prototyping via natural language descriptions.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2309.14600) | [💻 Code](https://github.com/Texaser/MTN)
+
 ## 2022
+### Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation
+
+**Author**: Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich
+
+**Date**: 1 Dec 2022
+
+<details span>
+<summary><b>Abstract</b></summary>
+A diffusion model learns to predict a vector field of gradients. We propose to apply chain rule on the learned gradients, and back-propagate the score of a diffusion model through the Jacobian of a differentiable renderer, which we instantiate to be a voxel radiance field. This setup aggregates 2D scores at multiple camera viewpoints into a 3D score, and repurposes a pretrained 2D model for 3D data generation. We identify a technical challenge of distribution mismatch that arises in this application, and propose a novel estimation mechanism to resolve it. We run our algorithm on several off-the-shelf diffusion image generative models, including the recently released Stable Diffusion trained on the large-scale LAION dataset.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2212.00774) | [🌐 Project Page](https://pals.ttic.edu/p/score-jacobian-chaining) | [💻 Code](https://github.com/pals-ttic/sjc/)
+
+
+
 ### DreamFusion: Text-to-3D using 2D Diffusion
 
 **Author**: Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall
