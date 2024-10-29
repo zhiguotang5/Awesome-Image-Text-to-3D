@@ -59,7 +59,7 @@ Massive data corpora like WebText, Wikipedia, Conceptual Captions, WebImageText,
 
 [📄 Paper](https://arxiv.org/pdf/2305.06131)
 
-## 2023
+
 ### Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era
 
 **Author**: Chenghao Li, Chaoning Zhang, Atish Waghwase, Lik-Hang Lee, Francois Rameau, Yang Yang, Sung-Ho Bae, Choong Seon Hong
@@ -86,6 +86,20 @@ Generative AI (AIGC, a.k.a. AI generated content) has made significant progress 
 
 ## Single Image to 3D
 ## 2024
+### DreamCraft3D++: Efficient Hierarchical 3D Generation with Multi-Plane Reconstruction Model
+
+**Author**: Jingxiang Sun, Cheng Peng, Ruizhi Shao, Yuan-Chen Guo, Xiaochen Zhao, Yangguang Li, Yanpei Cao, Bo Zhang, Yebin Liu
+
+**Date**: 16 Oct 2024 
+
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce DreamCraft3D++, an extension of DreamCraft3D that enables efficient high-quality generation of complex 3D assets. DreamCraft3D++ inherits the multi-stage generation process of DreamCraft3D, but replaces the time-consuming geometry sculpting optimization with a feed-forward multi-plane based reconstruction model, speeding up the process by 1000x. For texture refinement, we propose a training-free IP-Adapter module that is conditioned on the enhanced multi-view images to enhance texture and geometry consistency, providing a 4x faster alternative to DreamCraft3D's DreamBooth fine-tuning. Experiments on diverse datasets demonstrate DreamCraft3D++'s ability to generate creative 3D assets with intricate geometry and realistic 360° textures, outperforming state-of-the-art image-to-3D methods in quality and speed. The full implementation will be open-sourced to enable new possibilities in 3D content creation.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2410.12928) | [🌐 Project Page](https://dreamcraft3dplus.github.io/) | [💻 Code](https://github.com/MrTornado24/DreamCraft3D_Plus)
+
+
 ### TripoSR: Fast 3D Object Reconstruction from a Single Image
 
 **Author**: Dmitry Tochilkin, David Pankratz, Zexiang Liu, Zixuan Huang, Adam Letts, Yangguang Li, Ding Liang, Christian Laforte, Varun Jampani, Yan-Pei Cao
@@ -127,6 +141,20 @@ We propose the first Large Reconstruction Model (LRM) that predicts the 3D model
 </details>
 
 [📄 Paper](https://arxiv.org/pdf/2311.04400) | [🌐 Project Page](https://yiconghong.me/LRM/) | [💻 Code (not yet)]()
+
+
+### [ICLR '2024] DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior
+
+**Author**: Jingxiang Sun, Bo Zhang, Ruizhi Shao, Lizhen Wang, Wen Liu, Zhenda Xie, Yebin Liu
+
+**Date**: 25 Oct 2023
+
+<details span>
+<summary><b>Abstract</b></summary>
+We present DreamCraft3D, a hierarchical 3D content generation method that produces high-fidelity and coherent 3D objects. We tackle the problem by leveraging a 2D reference image to guide the stages of geometry sculpting and texture boosting. A central focus of this work is to address the consistency issue that existing works encounter. To sculpt geometries that render coherently, we perform score distillation sampling via a view-dependent diffusion model. This 3D prior, alongside several training strategies, prioritizes the geometry consistency but compromises the texture fidelity. We further propose Bootstrapped Score Distillation to specifically boost the texture. We train a personalized diffusion model, Dreambooth, on the augmented renderings of the scene, imbuing it with 3D knowledge of the scene being optimized. The score distillation from this 3D-aware diffusion prior provides view-consistent guidance for the scene. Notably, through an alternating optimization of the diffusion prior and 3D scene representation, we achieve mutually reinforcing improvements: the optimized 3D scene aids in training the scene-specific diffusion model, which offers increasingly view-consistent guidance for 3D optimization. The optimization is thus bootstrapped and leads to substantial texture boosting. With tailored 3D priors throughout the hierarchical generation, DreamCraft3D generates coherent 3D objects with photorealistic renderings, advancing the state-of-the-art in 3D content generation. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2310.16818) | [🌐 Project Page](https://mrtornado24.github.io/DreamCraft3D/) | [💻 Code](https://github.com/deepseek-ai/DreamCraft3D)
 
 
 ### Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model
