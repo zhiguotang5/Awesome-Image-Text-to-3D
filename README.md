@@ -185,22 +185,6 @@ We introduce Zero-1-to-3, a framework for changing the camera viewpoint of an ob
 [📄 Paper](https://arxiv.org/pdf/2303.11328) | [🌐 Project Page](https://zero123.cs.columbia.edu/) | [💻 Code](https://github.com/cvlab-columbia/zero123?tab=readme-ov-file)
 
 
-## 2022
-
-### [CVPR '2023] Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation
-
-**Author**: Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich
-
-**Date**: 1 Dec 2022
-
-<details span>
-<summary><b>Abstract</b></summary>
-A diffusion model learns to predict a vector field of gradients. We propose to apply chain rule on the learned gradients, and back-propagate the score of a diffusion model through the Jacobian of a differentiable renderer, which we instantiate to be a voxel radiance field. This setup aggregates 2D scores at multiple camera viewpoints into a 3D score, and repurposes a pretrained 2D model for 3D data generation. We identify a technical challenge of distribution mismatch that arises in this application, and propose a novel estimation mechanism to resolve it. We run our algorithm on several off-the-shelf diffusion image generative models, including the recently released Stable Diffusion trained on the large-scale LAION dataset.
-</details>
-
-[📄 Paper](https://arxiv.org/pdf/2212.00774) | [🌐 Project Page](https://pals.ttic.edu/p/score-jacobian-chaining) | [💻 Code](https://github.com/pals-ttic/sjc/)
-
-
 ## Text to 3D
 ## 2023
 
