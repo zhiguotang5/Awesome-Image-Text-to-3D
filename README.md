@@ -186,6 +186,20 @@ We introduce Zero-1-to-3, a framework for changing the camera viewpoint of an ob
 
 
 ## Text to 3D
+## 2024
+### [ECCV '2024] DreamMesh: Jointly Manipulating and Texturing Triangle Meshes for Text-to-3D Generation
+
+**Author**: Haibo Yang, Yang Chen, Yingwei Pan, Ting Yao, Zhineng Chen, Zuxuan Wu, Yu-Gang Jiang, Tao Mei
+
+**Date**: 11 Sep 2024
+
+<details span>
+<summary><b>Abstract</b></summary>
+Learning radiance fields (NeRF) with powerful 2D diffusion models has garnered popularity for text-to-3D generation. Nevertheless, the implicit 3D representations of NeRF lack explicit modeling of meshes and textures over surfaces, and such surface-undefined way may suffer from the issues, e.g., noisy surfaces with ambiguous texture details or cross-view inconsistency. To alleviate this, we present DreamMesh, a novel text-to-3D architecture that pivots on well-defined surfaces (triangle meshes) to generate high-fidelity explicit 3D model. Technically, DreamMesh capitalizes on a distinctive coarse-to-fine scheme. In the coarse stage, the mesh is first deformed by text-guided Jacobians and then DreamMesh textures the mesh with an interlaced use of 2D diffusion models in a tuning free manner from multiple viewpoints. In the fine stage, DreamMesh jointly manipulates the mesh and refines the texture map, leading to high-quality triangle meshes with high-fidelity textured materials. Extensive experiments demonstrate that DreamMesh significantly outperforms state-of-the-art text-to-3D methods in faithfully generating 3D content with richer textual details and enhanced geometry.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2409.07454) | [🌐 Project Page](https://dreammesh.github.io/) | [💻 Code (not yet)]()
+
 ## 2023
 
 ### [CVPR '2024 Highlight] RichDreamer: A Generalizable Normal-Depth Diffusion Model for Detail Richness in Text-to-3D
