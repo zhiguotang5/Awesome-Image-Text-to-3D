@@ -13,6 +13,8 @@ A curated list of papers and open-source resources focused on text/image to 3D.
 
 - [Text to 3D](#text-to-3d)
 
+- [Multi-view images to 3d](#multi-view-images-to-3d)
+
 
 ## Dataset
 ## 2023
@@ -270,3 +272,26 @@ Recent breakthroughs in text-to-image synthesis have been driven by diffusion mo
 </details>
 
 [📄 Paper](https://arxiv.org/pdf/2209.14988) | [🌐 Project Page](https://dreamfusion3d.github.io/)
+
+
+## Multi-view images to 3d
+## 2024
+### CAT3D: Create Anything in 3D with Multi-View Diffusion Models
+
+**Author**: Ruiqi Gao, Aleksander Holynski, Philipp Henzler, Arthur Brussee, Ricardo Martin-Brualla, Pratul Srinivasan, Jonathan T. Barron, Ben Poole
+
+**Date**: 16 May 2024
+
+<details span>
+<summary><b>Abstract</b></summary>
+Advances in 3D reconstruction have enabled high-quality 3D capture, but require a user to collect hundreds to thousands of images to create a 3D scene. We present CAT3D, a method for creating anything in 3D by simulating this real-world capture process with a multi-view diffusion model. Given any number of input images and a set of target novel viewpoints, our model generates highly consistent novel views of a scene. These generated views can be used as input to robust 3D reconstruction techniques to produce 3D representations that can be rendered from any viewpoint in real-time. CAT3D can create entire 3D scenes in as little as one minute, and outperforms existing methods for single image and few-view 3D scene creation.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2405.10314) | [🌐 Project Page](https://cat3d.github.io/)
+
+
+## Text-to-3D-Scene
+## 2024
+### SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting
+
+**Author**: 
