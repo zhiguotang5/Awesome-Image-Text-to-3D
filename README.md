@@ -216,6 +216,20 @@ The field of text-to-3D content generation has made significant progress in gene
 
 [📄 Paper](https://arxiv.org/pdf/2409.06620) | [🌐 Project Page](https://mvgaussian.github.io/) | [💻 Code](https://github.com/mvgaussian/mvgaussian)
 
+
+### [NeurIPS '2024] MeshXL: Neural Coordinate Field for Generative 3D Foundation Models
+
+**Author**: Sijin Chen, Xin Chen, Anqi Pang, Xianfang Zeng, Wei Cheng, Yijun Fu, Fukun Yin, Yanru Wang, Zhibin Wang, Chi Zhang, Jingyi Yu, Gang Yu, Bin Fu, Tao Chen
+
+**Date**: 31 May 2024
+
+<details span>
+<summary><b>Abstract</b></summary>
+The polygon mesh representation of 3D data exhibits great flexibility, fast rendering speed, and storage efficiency, which is widely preferred in various applications. However, given its unstructured graph representation, the direct generation of high-fidelity 3D meshes is challenging. Fortunately, with a pre-defined ordering strategy, 3D meshes can be represented as sequences, and the generation process can be seamlessly treated as an auto-regressive problem. In this paper, we validate the Neural Coordinate Field (NeurCF), an explicit coordinate representation with implicit neural embeddings, is a simple-yet-effective representation for large-scale sequential mesh modeling. After that, we present MeshXL, a family of generative pre-trained auto-regressive models, which addresses the process of 3D mesh generation with modern large language model approaches. Extensive experiments show that MeshXL is able to generate high-quality 3D meshes, and can also serve as foundation models for various down-stream applications.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2405.20853) | [🌐 Project Page](https://meshxl.github.io/) | [💻 Code](https://github.com/OpenMeshLab/MeshXL)
+
 ## 2023
 
 ### [CVPR '2024 Highlight] RichDreamer: A Generalizable Normal-Depth Diffusion Model for Detail Richness in Text-to-3D
