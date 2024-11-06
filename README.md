@@ -324,57 +324,58 @@ Advances in 3D reconstruction have enabled high-quality 3D capture, but require 
 
 This table provides a comprehensive overview of cutting-edge enhanced text-to-3D technologies. Showcasing various methods along with their corresponding projects links, representations, objectives, and motivations. The table contains a plethora of methodologies, each with its unique characteristics and contributions. Motivations driving these advancements vary, ranging from fidelity, efficiency, consistency, controllability, diversity and applicability.
 
-| Method                  | Project | Representation           | Objective                                 | Motivation                    |
-|-------------------------|---------|--------------------------|-------------------------------------------|--------------------------------|
-| 3D-ClFusion             | [Link](https://example.com) | NGF/NeRF              | Diffusion+Contrast                       | Efficiency                    |
-| 3DCP                   | [Link](https://example.com) | TriPlane              | SDS                                       | Efficiency                    |
-| 3DFuse                 | [Link](https://example.com) | NeRF                 | SDS/SDS-IC                                | Consistency/Controllability   |
-| ATPAIR                 | [Link](https://example.com) | NeRF                 | SDS                                       | Fidelity                      |
-| CLIP-NeRF              | [Link](https://example.com) | NGF                 | CLIP                                      | Controllability               |
-| Consist3D              | [Link](https://example.com) | SDS                | SDS-cons+warp-rec                         | Consistency                   |
-| Consist3D++            | [Link](https://example.com) | NeRF/DiReCT/IDXSS   | SDS                                       | Efficiency/Consistency        |
-| Corr                 | [Link](https://example.com) | NGF                 | CLIP                                      | Fidelity                      |
-| CST3D                  | [Link](https://example.com) | NeRF                | SDS                                       | Consistency                   |
-| D2-SDF                 | [Link](https://example.com) | NGF                 | Diffusion                                 | Fidelity                      |
-| DDP-SDS                | [Link](https://example.com) | NGF/NeRF            | SDS                                       | Efficiency                    |
-| DTFusion-SDF           | [Link](https://example.com) | SDS/NeRF            | SDS/SDS                                    | Efficiency                    |
-| Diffusion-SDF          | [Link](https://example.com) | Diffusion           | SDS                                       | Fidelity/Consistency          |
-| DS-SDS                 | [Link](https://example.com) | SDS                 | ADA-Cons                                  | Consistency                   |
-| DT3D-NeRF              | [Link](https://example.com) | NeRF/IDXSS          | SDS                                       | Fidelity/Consistency          |
-| DreamFusion            | [Link](https://example.com) | NeRF/Mix-Diff        | SDS-PIRR                                  | Controllability               |
-| DreamCRaB              | [Link](https://example.com) | NGF                | CLIP-Image                                | Fidelity                      |
-| DreamFusionTB          | [Link](https://example.com) | IDX                | TPV-SDS                                   | Consistency                   |
-| DreamPopUp             | [Link](https://example.com) | Diffusion          | VDM                                       | Efficiency                    |
-| EfficientDreamer       | [Link](https://example.com) | SDS                | SDS                                       | Fidelity/Applicability        |
-| Fast3DAI               | [Link](https://example.com) | SDS                | SDS                                       | Efficiency                    |
-| FastDreamer            | [Link](https://example.com) | SDS                | SDS                                       | Fidelity/Applicability        |
-| Fantasia3D             | [Link](https://example.com) | SDS                | SDS                                       | Fidelity/Applicability        |
-| FlexNeRF               | [Link](https://example.com) | NeRF                | SDS-PIRR                                  | Fidelity/Applicability        |
-| GLIGEN                 | [Link](https://example.com) | NeRF                | SDS                                       | Controllability               |
-| GraspNeRF              | [Link](https://example.com) | SDS                | SDS                                       | Consistency                   |
-| GS-SDS                 | [Link](https://example.com) | SDS                | SDS                                       | Fidelity                      |
-| HR-Dreamer             | [Link](https://example.com) | SDS                | SDS                                       | Efficiency                    |
-| I3D-Dreamer            | [Link](https://example.com) | SDS                | SDS                                       | Efficiency                    |
-| InFusion               | [Link](https://example.com) | NGF                | Diffusion-SDS                             | Fidelity/Consistency          |
-| IT3D-LDM               | [Link](https://example.com) | IDX-ConsistentNeRF  | SDS-PIRR                                  | Consistency                   |
-| Lazy3D                 | [Link](https://example.com) | SDS                | SDS-Mips-LIPS                             | Fidelity                      |
-| LIKD                   | [Link](https://example.com) | IDX                 | SDS                                       | Fidelity                      |
-| Magic3D                | [Link](https://example.com) | NeRF/IDX           | SDS-PIRR                                  | Consistency                   |
-| Mega3D                 | [Link](https://example.com) | NGF                | SDS                                       | Fidelity/Consistency          |
-| MixNeRF                | [Link](https://example.com) | NeRF                | SDS                                       | Consistency                   |
-| NAIR                  | [Link](https://example.com) | SDS                | SDS                                       | Fidelity/Applicability        |
-| PBG                   | [Link](https://example.com) | IDX-Image          | SDS-PIRR                                  | Controllability               |
-| RT3D-NeRF             | [Link](https://example.com) | SDS-AMA            | SDS                                       | Fidelity                      |
-| S2M                   | [Link](https://example.com) | NeRF                | SDS-Consistency                           | Consistency                   |
-| Secure3D              | [Link](https://example.com) | NGF                | SDS-AMA                                   | Fidelity                      |
-| SketchDream           | [Link](https://example.com) | SDS                | SDS                                       | Efficiency                    |
-| SpaceTime3D           | [Link](https://example.com) | SDS                | SDS-VA                                     | Controllability               |
-| Tap3DFusion           | [Link](https://example.com) | NeRF                | SDS                                       | Consistency                   |
-| TextDream             | [Link](https://example.com) | NGF                | CLIP-IMG                                  | Fidelity                      |
-| TetraNeRF             | [Link](https://example.com) | SDS                | SDS-PIRR                                  | Fidelity                      |
-| TIVA                  | [Link](https://example.com) | NeRF/Mix-Diff       | SDS                                       | Consistency                   |
-| TAP3DSDS              | [Link](https://example.com) | SDS                | SDS                                       | Fidelity                      |
-| SavePoint             | [Link](https://example.com) | IDX                | SDS                                       | Consistency                   |
-| X-Dream               | [Link](https://example.com) | SMPL-X             | SDS-AMA                                   | Fidelity/Applicability        |
-| X-Oscar               | [Link](https://example.com) | SMPL-X             | ASDS                                      | Fidelity/Applicability        |
-
+| Method               | Project                                                                                       | Representation             | Optimization              | Directions                           |
+|----------------------|-----------------------------------------------------------------------------------------------|-----------------------------|----------------------------|--------------------------------------|
+| 3D-CLFusion          | -                                                                                             | NeRF                        | Diffusion+Contrast        | Efficiency                          |
+| 3DTopia              | [Link](https://github.com/3DTopia/3DTopia)                                                    | Triplane                    | SDS                        | Efficiency                          |
+| 3DFuse               | [Link](https://ku-cvlab.github.io/3DFuse/)                                                    | NeRF                        | SDS/SJC                    | Consistency & Controllability       |
+| ATT3D                | [Link](https://research.nvidia.com/labs/toronto-ai/ATT3D/)                                    | NeRF                        | SDS                        | Efficiency                          |
+| CLIP-NeRF            | [Link](https://cassiepython.github.io/clipnerf/)                                              | NeRF                        | CLIP                       | Controllability                     |
+| Consist3D            | -                                                                                             | SJC                         | SDS+sem+warp+rec          | Consistency                         |
+| Consistent3D         | [Link](https://github.com/sail-sg/Consistent3D)                                               | NeRF/DMTet/3DGS             | CDS                        | Consistency                         |
+| Control3D            | -                                                                                             | NeRF                        | C-SDS                      | Controllability                     |
+| CorrespondentDream   | -                                                                                             | NeRF                        | SDS                        | Fidelity                            |
+| CSD                  | [Link](https://xinyu-andy.github.io/Classifier-Score-Distillation)                             | NeRF/DMTet                  | CSD                        | Fidelity                            |
+| DATID-3D             | [Link](https://gwang-kim.github.io/datid_3d/)                                                 | Triplane                    | ADA+den                    | Diversity                           |
+| Diffusion-SDF        | [Link](https://github.com/ttlmh/Diffusion-SDF)                                                | SDF                         | Diffusion-SDF              | Diversity                           |
+| DITTO-NeRF           | [Link](https://janeyeon.github.io/ditto-nerf)                                                 | NeRF                        | inpainting-SDS             | Efficiency, Consistency & Diversity |
+| D-SDS                | [Link](https://susunghong.github.io/Debiased-Score-Distillation-Sampling/)                    | NeRF                        | Debiased-SDS               | Consistency                         |
+| Dream3D              | [Link](https://bluestyle97.github.io/dream3d/)                                                | DVGO                        | CLIP+prior                 | Controllability                     |
+| DreamBooth3D         | [Link](https://dreambooth3d.github.io/)                                                       | NeRF                        | SDS+MVR                    | Controllability                     |
+| DreamCraft3D         | [Link](https://github.com/deepseek-ai/DreamCraft3D)                                           | NeuS+DMTet                  | BSD                        | Consistency                         |
+| DreamGaussian        | [Link](https://dreamgaussian.github.io/)                                                      | 3DGS                        | SDS                        | Efficiency                          |
+| DreamPropeller       | [Link](https://github.com/alexzhou907/DreamPropeller)                                         | NeRF/DMTet                  | SDS/VSD                    | Efficiency                          |
+| DreamTime            | -                                                                                             | NeRF                        | TP-VSD/TP-SDS             | Fidelity & Diversity                |
+| Dreamer XL           | [Link](https://github.com/xingy038/Dreamer-XL)                                                | 3DGS                        | TSM                        | Consistency                         |
+| EfficientDreamer     | [Link](https://efficientdreamer.github.io/)                                                   | NeuS+DMTet                  | SDS/VDS                    | Consistency                         |
+| ExactDreamer         | [Link](https://github.com/zymvszym/ExactDreamer)                                              | 3DGS                        | ESM                        | Fidelity & Consistency              |
+| Fantasia3D           | [Link](https://fantasia3d.github.io/)                                                         | DMTet                       | SDS                        | Fidelity                            |
+| FSD                  | -                                                                                             | NeRF                        | FSD                        | Diversity                           |
+| GaussianDiffusion    | -                                                                                             | 3DGS                        | SDS                        | Fidelity & Consistency              |
+| GaussianDreamer      | [Link](https://taoranyi.com/gaussiandreamer/)                                                 | 3DGS                        | SDS                        | Efficiency                          |
+| GSGEN                | [Link](https://gsgen3d.github.io/)                                                            | 3DGS                        | SDS                        | Efficiency & Consistency            |
+| Grounded-Dreamer     | -                                                                                             | NeRF                        | SDS                        | Fidelity                            |
+| HD-Fusion            | -                                                                                             | SDF+DMTet                   | SDS/VSD                    | Fidelity                            |
+| HiFA                 | [Link](https://hifa-team.github.io/HiFA-site/)                                                | NeRF                        | SDS                        | Fidelity & Consistency              |
+| InNeRF360            | [Link](https://ivrl.github.io/InNeRF360/)                                                     | NeRF                        | DSDS                       | Consistency & Controllability       |
+| Instant3D            | [Link](https://jiahao.ai/instant3d/)                                                          | Triplane                    | MSE+LPIPS                  | Efficiency & Diversity              |
+| Interactive3D        | [Link](https://interactive-3d.github.io/)                                                     | 3DGS+InstantNGP             | interactive-SDS            | Controllability                     |
+| IT3D                 | [Link](https://github.com/buaacyw/IT3D-text-to-3D)                                            | NeRF+Mesh                   | SDS                        | Fidelity & Consistency              |
+| LI3D                 | -                                                                                             | NeRF                        | SDS                        | Controllability                     |
+| LucidDreamer         | [Link](https://github.com/EnVision-Research/LucidDreamer)                                     | 3DGS                        | ISM                        | Fidelity                            |
+| Magic3D              | [Link](https://research.nvidia.com/labs/dir/magic3d)                                          | NeRF+DMTet                  | SDS                        | Fidelity & Efficiency               |
+| MATLABER             | [Link](https://sheldontsui.github.io/projects/Matlaber)                                       | DMTet                       | SDS                        | Fidelity                            |
+| MTN                  | -                                                                                             | Multi-Scale Triplane        | SDS                        | Fidelity                            |
+| MVControl            | [Link](https://github.com/WU-CVGL/MVControl)                                                  | NeuS/DMTet                  | SDS                        | Controllability                     |
+| MVDream              | [Link](https://mv-dream.github.io/)                                                           | NeRF                        | SDS                        | Consistency                         |
+| Perp-Neg             | [Link](https://perp-neg.github.io/)                                                           | NeRF                        | SDS                        | Consistency                         |
+| PI3D                 | -                                                                                             | Triplane                    | SDS                        | Efficiency & Consistency            |
+| Points-to-3D         | -                                                                                             | NeRF                        | SDS                        | Consistency & Controllability       |
+| ProlificDreamer      | [Link](https://ml.cs.tsinghua.edu.cn/prolificdreamer/)                                        | NeRF                        | VSD                        | Fidelity & Diversity                |
+| RichDreamer          | [Link](https://aigc3d.github.io/richdreamer/)                                                 | NeRF/DMTet                  | SDS                        | Consistency                         |
+| Sherpa3D             | [Link](https://liuff19.github.io/Sherpa3D/)                                                   | DMTet                       | SDS                        | Consistency                         |
+| SweetDreamer         | [Link](https://sweetdreamer3d.github.io/)                                                     | NeRF/DMTet                  | SDS                        | Consistency                         |
+| TAPS3D               | [Link](https://github.com/plusmultiply/TAPS3D)                                                | DMTet                       | CLIP+IMG                   | Fidelity & Diversity                |
+| TextMesh             | [Link](https://fabi92.github.io/textmesh/)                                                    | SDF+Mesh                    | SDS                        | Fidelity                            |
+| X-Dreamer            | [Link](https://xmu-xiaoma666.github.io/Projects/X-Dreamer)                                    | DMTet                       | SDS+AMA                    | Fidelity                            |
+| X-Oscar              | [Link](https://xmu-xiaoma666.github.io/Projects/X-Oscar/)                                     | SMPL-X                      | ASDS                       | Fidelity                            |
