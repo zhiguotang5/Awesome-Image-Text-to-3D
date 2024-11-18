@@ -301,6 +301,48 @@ Text-to-3D generation is to craft a 3D object according to a natural language de
 
 [📄 Paper](https://arxiv.org/pdf/2309.14600) | [💻 Code](https://github.com/Texaser/MTN)
 
+
+## MVDream: Multi-view Diffusion for 3D Generation
+
+**Author**: Yichun Shi, Peng Wang, Jianglong Ye, Mai Long, Kejie Li, Xiao Yang
+
+**Date**:  31 Aug 2023
+
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce MVDream, a diffusion model that is able to generate consistent multi-view images from a given text prompt. Learning from both 2D and 3D data, a multi-view diffusion model can achieve the generalizability of 2D diffusion models and the consistency of 3D renderings. We demonstrate that such a multi-view diffusion model is implicitly a generalizable 3D prior agnostic to 3D representations. It can be applied to 3D generation via Score Distillation Sampling, significantly enhancing the consistency and stability of existing 2D-lifting methods. It can also learn new concepts from a few 2D examples, akin to DreamBooth, but for 3D generation.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2308.16512) | [🌐 Projects Page](https://mv-dream.github.io/) | [💻 Code](https://github.com/bytedance/MVDream)
+
+
+## EfficientDreamer: High-Fidelity and Robust 3D Creation via Orthogonal-view Diffusion Prior
+
+**Author**: Zhipeng Hu, Minda Zhao, Chaoyi Zhao, Xinyue Liang, Lincheng Li, Zeng Zhao, Changjie Fan, Xiaowei Zhou, Xin Yu
+
+**Date**: 25 Aug 2023
+
+<details span>
+<summary><b>Abstract</b></summary>
+While image diffusion models have made significant progress in text-driven 3D content creation, they often fail to accurately capture the intended meaning of text prompts, especially for view information. This limitation leads to the Janus problem, where multi-faced 3D models are generated under the guidance of such diffusion models. In this paper, we propose a robust high-quality 3D content generation pipeline by exploiting orthogonal-view image guidance. First, we introduce a novel 2D diffusion model that generates an image consisting of four orthogonal-view sub-images based on the given text prompt. Then, the 3D content is created using this diffusion model. Notably, the generated orthogonal-view image provides strong geometric structure priors and thus improves 3D consistency. As a result, it effectively resolves the Janus problem and significantly enhances the quality of 3D content creation. Additionally, we present a 3D synthesis fusion network that can further improve the details of the generated 3D contents. Both quantitative and qualitative evaluations demonstrate that our method surpasses previous text-to-3D techniques.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2308.13223) | [🌐 Projects Page](https://efficientdreamer.github.io/)
+
+
+## Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation
+
+**Author**: Rui Chen, Yongwei Chen, Ningxin Jiao, Kui Jia
+
+**Date**: 24 Mar 2023
+
+<details span>
+<summary><b>Abstract</b></summary>
+Automatic 3D content creation has achieved rapid progress recently due to the availability of pre-trained, large language models and image diffusion models, forming the emerging topic of text-to-3D content creation. Existing text-to-3D methods commonly use implicit scene representations, which couple the geometry and appearance via volume rendering and are suboptimal in terms of recovering finer geometries and achieving photorealistic rendering; consequently, they are less effective for generating high-quality 3D assets. In this work, we propose a new method of Fantasia3D for high-quality text-to-3D content creation. Key to Fantasia3D is the disentangled modeling and learning of geometry and appearance. For geometry learning, we rely on a hybrid scene representation, and propose to encode surface normal extracted from the representation as the input of the image diffusion model. For appearance modeling, we introduce the spatially varying bidirectional reflectance distribution function (BRDF) into the text-to-3D task, and learn the surface material for photorealistic rendering of the generated surface. Our disentangled framework is more compatible with popular graphics engines, supporting relighting, editing, and physical simulation of the generated 3D assets. We conduct thorough experiments that show the advantages of our method over existing ones under different text-to-3D task settings.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2303.13873) | [🌐 Projects Page](https://fantasia3d.github.io/) | [💻 Code](https://github.com/Gorilla-Lab-SCUT/Fantasia3D)
+
 ## 2022
 ### Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation
 
