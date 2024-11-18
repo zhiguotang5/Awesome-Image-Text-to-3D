@@ -302,7 +302,7 @@ Text-to-3D generation is to craft a 3D object according to a natural language de
 [📄 Paper](https://arxiv.org/pdf/2309.14600) | [💻 Code](https://github.com/Texaser/MTN)
 
 
-## MVDream: Multi-view Diffusion for 3D Generation
+### MVDream: Multi-view Diffusion for 3D Generation
 
 **Author**: Yichun Shi, Peng Wang, Jianglong Ye, Mai Long, Kejie Li, Xiao Yang
 
@@ -316,7 +316,7 @@ We introduce MVDream, a diffusion model that is able to generate consistent mult
 [📄 Paper](https://arxiv.org/pdf/2308.16512) | [🌐 Projects Page](https://mv-dream.github.io/) | [💻 Code](https://github.com/bytedance/MVDream)
 
 
-## EfficientDreamer: High-Fidelity and Robust 3D Creation via Orthogonal-view Diffusion Prior
+### EfficientDreamer: High-Fidelity and Robust 3D Creation via Orthogonal-view Diffusion Prior
 
 **Author**: Zhipeng Hu, Minda Zhao, Chaoyi Zhao, Xinyue Liang, Lincheng Li, Zeng Zhao, Changjie Fan, Xiaowei Zhou, Xin Yu
 
@@ -330,7 +330,7 @@ While image diffusion models have made significant progress in text-driven 3D co
 [📄 Paper](https://arxiv.org/pdf/2308.13223) | [🌐 Projects Page](https://efficientdreamer.github.io/)
 
 
-## Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation
+### Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation
 
 **Author**: Rui Chen, Yongwei Chen, Ningxin Jiao, Kui Jia
 
