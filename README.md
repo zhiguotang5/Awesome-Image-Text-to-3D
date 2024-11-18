@@ -330,7 +330,7 @@ While image diffusion models have made significant progress in text-driven 3D co
 [📄 Paper](https://arxiv.org/pdf/2308.13223) | [🌐 Projects Page](https://efficientdreamer.github.io/)
 
 
-### Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation
+### [ICCV' 2023] Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation
 
 **Author**: Rui Chen, Yongwei Chen, Ningxin Jiao, Kui Jia
 
