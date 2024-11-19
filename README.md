@@ -7,7 +7,7 @@ A curated list of papers and open-source resources focused on text/image to 3D.
 
 - [Survey on 3D generation](#survey)
 
-- [Open Sourced Unified framework for 3D content generation](#unified-framework-for-3D-content-generation)
+- [Open Sourced Implementation for 3D content generation](#unified-framework-for-3D-content-generation)
 
 - [Single Image to 3D](#single-image-to-3d)
 
@@ -84,6 +84,16 @@ Generative AI (AIGC, a.k.a. AI generated content) has made significant progress 
     <img alt="threestudio" src="https://user-images.githubusercontent.com/19284678/236847132-219999d0-4ffa-4240-a262-c2c025d15d9e.png" width="50%">
     </picture>
 </p>
+
+- [3D Topia](https://github.com/3DTopia/3DTopia)
+
+<p align="center">
+    <picture>
+    <img alt="3D_topia" src="https://github.com/3DTopia/3DTopia/blob/main/assets/3dtopia.jpeg?raw=true" width="50%">
+    </picture>
+</p>
+
+- [3D TopiaXL](https://github.com/3DTopia/3DTopia-XL)
 
 ## Single Image to 3D
 ## 2024
