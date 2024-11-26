@@ -97,6 +97,21 @@ Generative AI (AIGC, a.k.a. AI generated content) has made significant progress 
 
 ## Single Image to 3D
 ## 2024
+
+### GenXD: Generating Any 3D and 4D Scenes
+
+**Author**: Yuyang Zhao, Chung-Ching Lin, Kevin Lin, Zhiwen Yan, Linjie Li, Zhengyuan Yang, Jianfeng Wang, Gim Hee Lee, Lijuan Wang
+
+**Date**: 4 Nov 2024
+
+<details span>
+<summary><b>Abstract</b></summary>
+Recent developments in 2D visual generation have been remarkably successful. However, 3D and 4D generation remain challenging in real-world applications due to the lack of large-scale 4D data and effective model design. In this paper, we propose to jointly investigate general 3D and 4D generation by leveraging camera and object movements commonly observed in daily life. Due to the lack of real-world 4D data in the community, we first propose a data curation pipeline to obtain camera poses and object motion strength from videos. Based on this pipeline, we introduce a large-scale real-world 4D scene dataset: CamVid-30K. By leveraging all the 3D and 4D data, we develop our framework, GenXD, which allows us to produce any 3D or 4D scene. We propose multiview-temporal modules, which disentangle camera and object movements, to seamlessly learn from both 3D and 4D data. Additionally, GenXD employs masked latent conditions to support a variety of conditioning views. GenXD can generate videos that follow the camera trajectory as well as consistent 3D views that can be lifted into 3D representations. We perform extensive evaluations across various real-world and synthetic datasets, demonstrating GenXD's effectiveness and versatility compared to previous methods in 3D and 4D generation.
+<details>
+
+[📄 Paper](https://arxiv.org/pdf/2411.02319) | [🌐 Project Page](https://gen-x-d.github.io/) | [💻 Code](https://github.com/HeliosZhao/GenXD)
+
+
 ### DreamCraft3D++: Efficient Hierarchical 3D Generation with Multi-Plane Reconstruction Model
 
 **Author**: Jingxiang Sun, Cheng Peng, Ruizhi Shao, Yuan-Chen Guo, Xiaochen Zhao, Yangguang Li, Yanpei Cao, Bo Zhang, Yebin Liu
